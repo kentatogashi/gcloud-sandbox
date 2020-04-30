@@ -1,3 +1,7 @@
-gloud init
+# インフラ構築を行うためのサンドボックス
 
-gcloud container clusters get-credentials ${CLUSTER_NAME}
+このサンドボックスでは、gcloudコマンド、terraformが実行可能。
+
+# はじめにやること
+
+gloud initを実行して、認証を通す事。
